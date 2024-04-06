@@ -1,3 +1,13 @@
+@keyframes rotate {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+body {
+  background-image: linear-gradient(to bottom, #000000, #030303, #060606, #090909, #0c0c0c, #151515, #1c1c1d, #232324, #333233, #434243, #545353, #666464);
+  color: white !important;
+}
+
 .home {
   display: flex;
   position: relative;
