@@ -130,11 +130,10 @@ $background-color_2: #bbb2b29a;
   }
   .cont-hm {
     max-height: 100%;
-    background-color: $background-color_2;
   }
   .container.brr {
     position: relative;
-    margin-top: 10%;
+   
   }
   .container {
     .barra {
@@ -153,7 +152,7 @@ $background-color_2: #bbb2b29a;
         position: relative;
         width: 95%;
         height: 6px;
-        background: #1d60c4;
+        background: #ffffff;
         border-radius: 6px;
         overflow: hidden;
         margin: 5px 0;
@@ -169,7 +168,7 @@ $background-color_2: #bbb2b29a;
         position: relative;
         width: 70%;
         height: 6px;
-        background: #1d60c4;
+        background: #ffffff;
         border-radius: 6px;
         overflow: hidden;
         margin: 5px 0;
@@ -185,7 +184,7 @@ $background-color_2: #bbb2b29a;
         position: relative;
         width: 90%;
         height: 6px;
-        background: #1d60c4;
+        background: #ffffff;
         border-radius: 6px;
         overflow: hidden;
         margin: 5px 0;
@@ -201,14 +200,14 @@ $background-color_2: #bbb2b29a;
         position: relative;
         width: 70%;
         height: 6px;
-        background: #2763bd;
+        background: #ffffff;
         border-radius: 6px;
         overflow: hidden;
         margin: 5px 0;
       }
     }
   }
-  $thumbnail-padding:                 .25rem;
+
 pagina {
 	de {
 		servicios {
