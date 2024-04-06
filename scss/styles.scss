@@ -208,16 +208,6 @@ $background-color_2: #bbb2b29a;
     }
   }
 
-pagina {
-	de {
-		servicios {
-			.home2 {
-
-			padding: 80px 0;
-			margin: 10%;    
-			}
-		}
-	}
 	contacto {
 		.home3 {
 			height: 50vh;
@@ -226,27 +216,7 @@ pagina {
 			padding: 0 10%;
 		}
 	}
-}
-.home-content2 {
-	max-width: 600px;
-    position: flex;
-    align-items: center;
-    justify-content:center ;
-    text-align: center;
-    padding: 80px 0;
-    margin: 5vh;
-	h1 {
-		font-size: 56px;
-		font-weight: 700;
-		line-height: 1.2;
-		color: $color_4;
-	}
-	li {
-		color: $color_5;
-		font-size: 16px;
-		margin: 20px 0 40px;
-	}
-}
+
 .home3 {
     height: 50vh;
     display: grid;
