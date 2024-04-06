@@ -226,7 +226,7 @@ $background-color_2: #bbb2b29a;
   
   .home3-content3 {
     max-width: 100%;
-    margin-top: 30%;
+    margin-top: 20%;
   
     h1 {
       font-size: 56px;
@@ -241,23 +241,22 @@ $background-color_2: #bbb2b29a;
   }
   
   .home-red {
-    position: absolute;
-    bottom: 40px;
-    width: 180px;
+    position:relative ;
+    right: 2.5rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30vh;
     margin-left: 10vh;
   
     a {
-      position: relative;
+     position: relative;
       display: inline-flex;
       justify-content: center;
       align-items: center;
       width: 40px;
       height: 40px;
       background: transparent;
-      border: 2px solid #005cc4;
+      border: 2px solid #ffffff;
       border-radius: 50%;
       font-size: 20px;
       color: aliceblue;
@@ -272,7 +271,7 @@ $background-color_2: #bbb2b29a;
         left: 0;
         width: 0;
         height: 100%;
-        background-image: linear-gradient(to top, #406e7a 0%, #3b5275 100%);
+        background-image: linear-gradient(to top, #fcfcfc 0%, #3b5275 100%);
         z-index: -1;
         transition: 1s;
       }
@@ -282,13 +281,52 @@ $background-color_2: #bbb2b29a;
       }
     }
   }
-  
   .home3-content3 .btn-box {
     display: flex;
     width: 200px;
     height: 50px;
   }
   
+  .home1 {
+    display: flex;
+    position: relative;
+    background: rgb(255, 253, 253);
+    padding: 1.5rem;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 15px 15px 55px rgba(230, 230, 230, 0.329);
+    width: 70%;
+    max-width: 100%;
+    z-index: 1;
+    margin-left: 15%;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-image: linear-gradient(to bottom, #000000, #030303, #060606, #090909, #0c0c0c, #151515, #1c1c1d, #232324, #333233, #434243, #545353, #666464);
+      width: calc(100% - 5px);
+      height: calc(100% - 5px);
+      border-radius: 10px;
+      z-index: -1;
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-image: linear-gradient(90deg, transparent, #6f6f70, transparent);
+      height: 160%;
+      width: 5em;
+      z-index: -2;
+      animation: 3.5s rotate linear infinite;
+    }
+  }
 @media (max-width: 991px) {
     .sidebar {
       background-color: rgba(37, 52, 65, 0.15) !important;
