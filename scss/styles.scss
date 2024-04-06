@@ -95,13 +95,13 @@ $background-color_2: #bbb2b29a;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #2b4661;
+    border: 2px solid #929292;
     border-radius: 60px;
     transition: transform 0.3 ease, box-shadow 0.3 ease;
     font-weight: 600;
     z-index: 1;
     overflow: hidden;
-    background-image: linear-gradient(to top, #2c505a 0%, #3e4d66 100%);
+    background-image: linear-gradient(to bottom, #000000, #030303, #060606, #090909, #0c0c0c, #151515, #1c1c1d, #232324, #333233, #434243, #545353, #666464);
     &::before {
       content: '';
       width: 100%;
@@ -109,13 +109,13 @@ $background-color_2: #bbb2b29a;
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(to top, #4f8492 0%, #233553 100%);
+      background-image: linear-gradient(to bottom, #000000, #030303, #060606, #090909, #0c0c0c, #151515, #1c1c1d, #232324, #333233, #434243, #545353, #666464);
       transition: transform 0.5s ease;
       z-index: -1;
     }
     &:hover {
       transform: translate(0,-6px);
-      box-shadow: 10px -10px 25px 0 rgba(66, 24, 83, 0.5), 10px -10px 25px 0 rgba(30, 108, 134, 0.5);
+      box-shadow: 10px -10px 25px 0 rgba(255, 255, 255, 0.5), 10px -10px 25px 0 rgba(114, 114, 114, 0.5);
     }
   }
 
